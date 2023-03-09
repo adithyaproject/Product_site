@@ -5,16 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>product_site</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Mobile spot</h1>
     <div class="up-container">
-        <form action="">
-            <input type="text" placeholder="search">
-            <button type="submit"><img src="images/search.png"></button>
-        </form>
+        <!-- <form action="" class="search-bar"> -->
+            <input type="text" id="search-bar" class="" placeholder="search..." onkeyup="SearchBar()">
+            <!-- <button type="submit" class="button"><img src="images/search.png"></button> -->
+        <!-- </form> -->
     </div>
-    
+    <div class="products">
+        <figure class="single-product">
+            <img src="images/1.png" alt="">
+            <figcaption class="product-text">
+                <p class="product-name">iPhone 5s</p>
+                <p>Rs. 300000</p>
+            </figcaption>
+        </figure>
+
+        <figure class="single-product">
+            <img src="images/2.png" alt="">
+            <figcaption class="product-text">
+                <p class="product-name">iPhone 6s</p>
+                <p>Rs. 500000</p>
+            </figcaption>
+        </figure>
+
+        <figure class="single-product">
+            <img src="images/3.jfif" alt="">
+            <figcaption class="product-text">
+                <p class="product-name">iPhone </p>
+                <p>Rs. 700000</p>
+            </figcaption>
+        </figure>
+
+        <figure class="single-product">
+            <img src="images/4.jpg" alt="">
+            <figcaption class="product-text">
+                <p class="product-name">iPhone 8</p>
+                <p>Rs. 800000</p>
+            </figcaption>
+        </figure>
+
+        <figure class="single-product">
+            <img src="images/5.png" alt="">
+            <figcaption class="product-text">
+                <p class="product-name">iPhone X</p>
+                <p>Rs. 1000000</p>
+            </figcaption>
+        </figure>
+
+        <figure class="single-product">
+            <img src="images/6.jfif" alt="">
+            <figcaption class="product-text">
+                <p class="product-name">iPhone 11</p>
+                <p>Rs. 1500000</p>
+            </figcaption>
+        </figure>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
